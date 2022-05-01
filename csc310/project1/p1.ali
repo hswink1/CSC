@@ -1,0 +1,137 @@
+V "GNAT Lib v4.4"
+M P W=b
+P SS ZX
+R nnnnnnnvnnnnnnnvnnvnnvvvnnnnvnnnnnnnnnvnnvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+
+U p1%b			p1.adb			539fcf7c NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.float_aux%s  a-tiflau.adb		a-tiflau.ali
+W ada.text_io.integer_aux%s  a-tiinau.adb	a-tiinau.ali
+W system.fat_flt%s	s-fatflt.ads		s-fatflt.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.string_ops%s	s-strops.adb		s-strops.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20090114110545 9c7dd3ea
+D a-except.ads		20090414134449 b54b55de
+D a-finali.ads		20090414134820 9eaacebd
+D a-filico.ads		20090414134951 9299732a
+D a-ioexce.ads		20090114110546 be0900a0
+D a-stream.ads		20090414134419 34aca5be
+D a-tags.ads		20090414134730 bfa07446
+D a-textio.ads		20090414134822 fe8af46e
+D a-tiflau.ads		20090414134504 ce2abdd4
+D a-tiflio.ads		20090414134646 5d91823c
+D a-tiflio.adb		20090414134642 e2036cd2
+D a-tiinau.ads		20090414134512 2625f681
+D a-tiinio.ads		20090414134653 949a7272
+D a-tiinio.adb		20090414134651 cf5588a9
+D a-unccon.ads		20090114110545 51e09df2
+D interfac.ads		20090414134625 a69cad5c
+D i-cstrea.ads		20090414134744 e1e064a9
+D p1.adb		20200207234051 2fa80783
+D system.ads		20090414134649 df55302f
+D s-crtl.ads		20090414134633 997234a1
+D s-exctab.ads		20090414134921 5c1c61ae
+D s-fatflt.ads		20090414134422 f2e0c28f
+D s-fatgen.ads		20090414134905 87841279
+D s-ficobl.ads		20090414134918 8bb681e5
+D s-finimp.ads		20090414135057 9449f4cb
+D s-finroo.ads		20090414134701 1408f9d1
+D s-imgint.ads		20090414135051 f77d133c
+D s-parame.ads		20090414134647 f32e56e9
+D s-secsta.ads		20090414134519 7bae3621
+D s-soflin.ads		20090414134425 0c6fd39d
+D s-stache.ads		20090414134825 257b3be8
+D s-stalib.ads		20090414135007 52b793d5
+D s-stoele.ads		20090414134841 ed966df3
+D s-stoele.adb		20090414134835 e9998c78
+D s-stratt.ads		20090414134859 fef7c1da
+D s-strops.ads		20090414134829 845f72d2
+D s-sopco3.ads		20090414134748 72ce1063
+D s-sopco4.ads		20090414134818 bc112723
+D s-sopco5.ads		20090414134845 191315e8
+D s-traent.ads		20090414134453 bd5f2753
+D s-unstyp.ads		20090414134601 c0f9fae5
+D s-wchcon.ads		20090414134706 ab028799
+D text_io.ads		20090114110545 7c37c8ff
+X 8 a-textio.ads
+166U14*New_Line 18|37r9 39r3 41r3 43r3 45r3 47r9 48r3 61r3 63r9 65r9 67r3
+. 69r3 71r3 73r3 75r9 77r9 78r3 82r9 84r9 100r9 106r5 113r4 132r6 138r6 163r4
+. 214r6 218r5 223r7 227r5 262r6 266r5 296r4 316r2 320r6 324r6 328r6 332r6
+. 336r6 340r6 341r6 342r6
+206U14*Get 18|81r9 345r6
+242U14*Put 18|36r9 38r3 40r3 42r3 44r3 46r3 62r3 64r9 66r3 68r3 70r3 72r3
+. 74r3 76r3 80r3 83r3 97r5 99r9 101r5 104r7 107r5 110r7 131r6 134r6 146r10
+. 152r12 155r12 213r6 216r5 221r7 225r11 261r6 264r11 294r4 319r6 323r6 327r6
+. 331r6 335r6 339r6 344r6
+X 10 a-tiflio.ads
+45k21*Float_IO 88e25 18|23r25
+67U14 Put 18|295r4[23]
+X 13 a-tiinio.ads
+45k21*Integer_IO 84e27 18|21r24
+55U14 Get 18|135r6[21] 217r5[21] 222r7[21] 226r5[21] 265r5[21]
+65U14 Put 18|103r7[21] 109r7[21]
+X 18 p1.adb
+19U11*p1 19b11 349l5 349t7
+21K10 Number[13|45] 22r6
+23K10 Real_IO[10|45] 24r6
+26A7 IntList(integer)<integer> 94r34 126r35 173r37 188r37 209r39 257r39 287r36
+. 308r16
+34U12 introduction 34b12 49l6 49t18 313r2
+58V11 options{character} 58b11 86l6 86t13 315r16
+59e4 chosenOption{character} 81m13 85r12
+94U12 print 94b12 94>18 94>43 114l7 114t12 321r6
+94a18 integerList{26A7} 102r20 108r16 109r11
+94i43 usedIndexes{integer} 96r7 102r41 108r37
+102i13 idx{integer} 103r11
+108i9 idx{integer} 109r23
+126U12 search 126b12 126>19 126>44 164l6 164t12 325r6
+126a19 integerList{26A7} 141r21 143r24 151r23
+126i44 usedIndexes{integer} 128r23 130r7 151r35 152r50
+127i4 chosenInt{integer} 135m10 141r11 143r14 151r13
+127i25 left{integer} 139r12 140r20 144m10
+127i31 searchIdx{integer} 140m8 141r33 142r17 143r36 144r16 146r48 150r11
+. 160r24
+128i4 right{integer} 139r18 140r25 142m10
+128i36 found{integer} 139r28 147m10 150r40 153m12 156m12
+128i43 historicSearch{integer} 150r21 160m8
+173U12 swap 173b12 173=17 173>46 173>66 180l6 180t10 196r9
+173a17 integerList{26A7} 177r12 178m4 178r25 179m4
+173i46 first{integer} 178r37 179r16
+173i66 second{integer} 177r24 178r16
+175i5 holder{integer} 177m4 179r24
+188U12 sort 188b12 188=17 188>46 201l7 201t11 238r11 242r9 245r9 274r9
+188a17 integerList{26A7} 193r17 195r48 195r65 196m14
+188i46 usedIndexes{integer} 193r38 195r27
+189i4 sorted{integer} 191r10 192m6 197m9
+193i10 idx{integer} 195r22 195r60 195r77 196r27 196r32
+209U12 change 209b12 209=19 209>48 249l6 249t12 329r6
+209a19 integerList{26A7} 228m5 236r22 237r19 238m16 241r39 242m14 244r49
+. 245m14
+209i48 usedIndexes{integer} 212r6 220r21 231r8 233r36 238r29 242r27 244r23
+. 245r27
+210i4 chosenInt{integer} 226m9 228r29 236r12 237r9 241r29 244r39
+210i15 chosenIdx{integer} 217m9 220r11 220r36 222m11 228r17 233r10 233r26
+. 236r34 237r31 241r13 244r13 244r61
+257U12 insert 257b12 257=19 257=48 278l6 278t12 333r6
+257a19 integerList{26A7} 268m5 273r10 273r35 274m14
+257i48 usedIndexes{integer} 260r6 267m5 267r18 268r17 271r8 273r22 273r47
+. 274r27
+258i4 chosenInt{integer} 265m9 268r31
+287U12 average 287b12 287>20 287>45 297l6 297t13 337r6
+287a20 integerList{26A7} 290r15 291r20
+287i45 usedIndexes{integer} 290r36 293r19
+288f4 sum{float} 291m5 291r10 293m4 293r9 295r8
+290i8 idx{integer} 291r32
+308a2 integerList{26A7} 321r12 325r13 329m13 333m13 337r14
+309i2 usedIndexes{integer} 321r25 325r26 329r26 333m26 337r27
+310e2 chosenOption{character} 314r8 314r30 315m2 317r7 345m10
+X 43 text_io.ads
+24K9*Text_IO=24:29 18|16w6 17r5
+

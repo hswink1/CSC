@@ -1,0 +1,164 @@
+\hypertarget{classTerm}{
+\section{Term Class Reference}
+\label{classTerm}\index{Term@{Term}}
+}
+
+
+A \hyperlink{classTerm}{Term} holds a polynomial as a double for the coefficient and an integer for the exponent, conceptualized in the form 0x$^\wedge$0.  
+
+
+{\ttfamily \#include $<$Term.h$>$}\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classTerm_aa72ef129269040b50836346dcae32154}{
+{\bfseries Term} (double=0, int=0)}
+\label{classTerm_aa72ef129269040b50836346dcae32154}
+
+\item 
+double \hyperlink{classTerm_a155053b3506f434c6c788deb46b58eca}{getCoefficient} () const 
+\begin{DoxyCompactList}\small\item\em Retrieves the coefficient. \item\end{DoxyCompactList}\item 
+int \hyperlink{classTerm_a4366a4bde58427fde228da9f95505a78}{getExponent} () const 
+\begin{DoxyCompactList}\small\item\em retrieves the exponent \item\end{DoxyCompactList}\item 
+double \hyperlink{classTerm_ab89ea23f82711d4fc9f4608d0937ce31}{operator()} (double x) const 
+\begin{DoxyCompactList}\small\item\em Evaluates the term by the input number. \item\end{DoxyCompactList}\item 
+bool \hyperlink{classTerm_a8e563a63ca972c9d2cffacb471a611a5}{operator==} (int value)
+\begin{DoxyCompactList}\small\item\em Compares an int against the exponent. \item\end{DoxyCompactList}\item 
+bool \hyperlink{classTerm_a22d1367b67d2c2d2762392463decde13}{operator==} (const \hyperlink{classTerm}{Term} \&right)
+\begin{DoxyCompactList}\small\item\em Compares a Term's exponent against the exponent. \item\end{DoxyCompactList}\item 
+bool \hyperlink{classTerm_afa3f759f8bf094001d4b979999e40696}{operator!=} (const \hyperlink{classTerm}{Term} \&right)
+\begin{DoxyCompactList}\small\item\em Compares a Term's exponent against the exponent. \item\end{DoxyCompactList}\item 
+\hyperlink{classTerm}{Term} \& \hyperlink{classTerm_a596ebc6a2a6a32b2fc7396ed2cc1ed99}{operator+=} (const \hyperlink{classTerm}{Term} \&right)
+\begin{DoxyCompactList}\small\item\em Fuses the coefficients of two terms, assumed to be of the same exponent. \item\end{DoxyCompactList}\item 
+bool \hyperlink{classTerm_a34755dc6c3b6084fb864bdad671be087}{operator$<$} (const \hyperlink{classTerm}{Term} \&right) const 
+\begin{DoxyCompactList}\small\item\em Compares two Terms based on exponent. \item\end{DoxyCompactList}\item 
+bool \hyperlink{classTerm_a44f5d686c50172e689cf86b2c77bbc6a}{operator$<$} (int right)
+\begin{DoxyCompactList}\small\item\em Compares Term's exponent to an int. \item\end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A \hyperlink{classTerm}{Term} holds a polynomial as a double for the coefficient and an integer for the exponent, conceptualized in the form 0x$^\wedge$0. 
+
+\subsection{Member Function Documentation}
+\hypertarget{classTerm_a155053b3506f434c6c788deb46b58eca}{
+\index{Term@{Term}!getCoefficient@{getCoefficient}}
+\index{getCoefficient@{getCoefficient}!Term@{Term}}
+\subsubsection[{getCoefficient}]{\setlength{\rightskip}{0pt plus 5cm}double Term::getCoefficient () const}}
+\label{classTerm_a155053b3506f434c6c788deb46b58eca}
+
+
+Retrieves the coefficient. 
+\begin{DoxyParams}{Parameters}
+\item[{\em n/a}]\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+double-\/ the coefficient at the index 
+\end{DoxyReturn}
+\hypertarget{classTerm_a4366a4bde58427fde228da9f95505a78}{
+\index{Term@{Term}!getExponent@{getExponent}}
+\index{getExponent@{getExponent}!Term@{Term}}
+\subsubsection[{getExponent}]{\setlength{\rightskip}{0pt plus 5cm}int Term::getExponent () const}}
+\label{classTerm_a4366a4bde58427fde228da9f95505a78}
+
+
+retrieves the exponent 
+\begin{DoxyParams}{Parameters}
+\item[{\em n/a}]\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+int-\/ the exponent at the index 
+\end{DoxyReturn}
+\hypertarget{classTerm_afa3f759f8bf094001d4b979999e40696}{
+\index{Term@{Term}!operator!=@{operator!=}}
+\index{operator!=@{operator!=}!Term@{Term}}
+\subsubsection[{operator!=}]{\setlength{\rightskip}{0pt plus 5cm}bool Term::operator!= (const {\bf Term} \& {\em right})}}
+\label{classTerm_afa3f759f8bf094001d4b979999e40696}
+
+
+Compares a Term's exponent against the exponent. 
+\begin{DoxyParams}{Parameters}
+\item[{\em \hyperlink{classTerm}{Term}}]right-\/ the \hyperlink{classTerm}{Term} to compare the exponent by \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true-\/ if not match // false-\/ if match 
+\end{DoxyReturn}
+\hypertarget{classTerm_ab89ea23f82711d4fc9f4608d0937ce31}{
+\index{Term@{Term}!operator()@{operator()}}
+\index{operator()@{operator()}!Term@{Term}}
+\subsubsection[{operator()}]{\setlength{\rightskip}{0pt plus 5cm}double Term::operator() (double {\em x}) const}}
+\label{classTerm_ab89ea23f82711d4fc9f4608d0937ce31}
+
+
+Evaluates the term by the input number. 
+\begin{DoxyParams}{Parameters}
+\item[{\em double}]x-\/ the number to evaluate to \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the sum of the evaluated term 
+\end{DoxyReturn}
+\hypertarget{classTerm_a596ebc6a2a6a32b2fc7396ed2cc1ed99}{
+\index{Term@{Term}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!Term@{Term}}
+\subsubsection[{operator+=}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Term} \& Term::operator+= (const {\bf Term} \& {\em right})}}
+\label{classTerm_a596ebc6a2a6a32b2fc7396ed2cc1ed99}
+
+
+Fuses the coefficients of two terms, assumed to be of the same exponent. 
+\begin{DoxyParams}{Parameters}
+\item[{\em \hyperlink{classTerm}{Term}}]-\/ the \hyperlink{classTerm}{Term} to add \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The fusion of the two terms 
+\end{DoxyReturn}
+\hypertarget{classTerm_a44f5d686c50172e689cf86b2c77bbc6a}{
+\index{Term@{Term}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Term@{Term}}
+\subsubsection[{operator$<$}]{\setlength{\rightskip}{0pt plus 5cm}bool Term::operator$<$ (int {\em right})}}
+\label{classTerm_a44f5d686c50172e689cf86b2c77bbc6a}
+
+
+Compares Term's exponent to an int. 
+\begin{DoxyParams}{Parameters}
+\item[{\em int}]value-\/ the value to make the comparision to \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+according to the comparison 
+\end{DoxyReturn}
+\hypertarget{classTerm_a34755dc6c3b6084fb864bdad671be087}{
+\index{Term@{Term}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Term@{Term}}
+\subsubsection[{operator$<$}]{\setlength{\rightskip}{0pt plus 5cm}bool Term::operator$<$ (const {\bf Term} \& {\em right}) const}}
+\label{classTerm_a34755dc6c3b6084fb864bdad671be087}
+
+
+Compares two Terms based on exponent. 
+\begin{DoxyParams}{Parameters}
+\item[{\em int}]value-\/ the value to make the comparision to \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+according to the comparison 
+\end{DoxyReturn}
+\hypertarget{classTerm_a22d1367b67d2c2d2762392463decde13}{
+\index{Term@{Term}!operator==@{operator==}}
+\index{operator==@{operator==}!Term@{Term}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}bool Term::operator== (const {\bf Term} \& {\em right})}}
+\label{classTerm_a22d1367b67d2c2d2762392463decde13}
+
+
+Compares a Term's exponent against the exponent. 
+\begin{DoxyParams}{Parameters}
+\item[{\em Term-\/}]the \hyperlink{classTerm}{Term} to compare the exponent by \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true-\/ if match // false-\/ if doesn't match 
+\end{DoxyReturn}
+\hypertarget{classTerm_a8e563a63ca972c9d2cffacb471a611a5}{
+\index{Term@{Term}!operator==@{operator==}}
+\index{operator==@{operator==}!Term@{Term}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}bool Term::operator== (int {\em value})}}
+\label{classTerm_a8e563a63ca972c9d2cffacb471a611a5}
+
+
+Compares an int against the exponent. 
+\begin{DoxyParams}{Parameters}
+\item[{\em int}]value-\/ the number to compare the exponent by \end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true-\/ if match // false-\/ if doesn't match 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following files:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Term_8h}{Term.h}\item 
+Term.cpp\end{DoxyCompactItemize}

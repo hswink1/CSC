@@ -1,0 +1,9 @@
+xprogram abc
+   dec
+   x, n:int;
+   y, n;real
+   begin
+   Read();
+   Write(n, 8, n);
+   n = y+n+j*(1+2+3+4)
+   end.

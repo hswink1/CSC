@@ -1,0 +1,243 @@
+V "GNAT Lib v4.4"
+P SS ZX
+R nnnnnnnvnnnnnnnnnnnnnnvnnnnnnnnvnnnnnnvnnvnnnnnnnnnnnnnvnnnnnnnnnnnnnnnnnnnnn
+
+U lex%b			lex.adb			6c4585ee NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.unbounded_io%s  a-tiunio.ads	a-tiunio.ali
+W objectpkg%s		objectpkg.ads		objectpkg.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U lex%s			lex.ads			912e233c EE NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.unbounded_io%s  a-tiunio.ads	a-tiunio.ali
+W objectpkg%s		objectpkg.ads		objectpkg.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20090114110545 9c7dd3ea
+D a-charac.ads		20090114110546 506ce725
+D a-chahan.ads		20090414134925 dcb15e96
+D a-chlat1.ads		20090114110546 e9ee6d0a
+D a-comlin.ads		20090414135038 3b71d99c
+D a-contai.ads		20090114110545 7b35f559
+D a-convec.ads		20090414134727 317e4a8c
+D a-except.ads		20090414134449 b54b55de
+D a-finali.ads		20090414134820 9eaacebd
+D a-filico.ads		20090414134951 9299732a
+D a-inteio.ads		20090114110546 03bc737c
+D a-ioexce.ads		20090114110546 be0900a0
+D a-stream.ads		20090414134419 34aca5be
+D a-string.ads		20090114110545 87b4230b
+D a-strmap.ads		20090414135051 5253a637
+D a-strunb.ads		20090414135011 f0549c04
+D a-suteio.ads		20090414134459 d857a771
+D a-tags.ads		20090414134730 bfa07446
+D a-textio.ads		20090414134822 fe8af46e
+D a-tienio.ads		20090414135046 213fedba
+D a-tiinio.ads		20090414134653 949a7272
+D a-tiunio.ads		20090114110546 d721fe49
+D a-unccon.ads		20090114110545 51e09df2
+D interfac.ads		20090414134625 a69cad5c
+D i-cstrea.ads		20090414134744 e1e064a9
+D lex.ads		20200424074812 df4b6a4f
+D lex.adb		20200424071009 fd6ba6d2
+D objectpkg.ads		20200424075116 0fd1e3d9
+D system.ads		20090414134649 df55302f
+D s-crtl.ads		20090414134633 997234a1
+D s-exctab.ads		20090414134921 5c1c61ae
+D s-ficobl.ads		20090414134918 8bb681e5
+D s-finimp.ads		20090414135057 9449f4cb
+D s-finroo.ads		20090414134701 1408f9d1
+D s-parame.ads		20090414134647 f32e56e9
+D s-secsta.ads		20090414134519 7bae3621
+D s-soflin.ads		20090414134425 0c6fd39d
+D s-stache.ads		20090414134825 257b3be8
+D s-stalib.ads		20090414135007 52b793d5
+D s-stoele.ads		20090414134841 ed966df3
+D s-stoele.adb		20090414134835 e9998c78
+D s-stratt.ads		20090414134859 fef7c1da
+D s-traent.ads		20090414134453 bd5f2753
+D s-unstyp.ads		20090414134601 c0f9fae5
+D s-wchcon.ads		20090414134706 ab028799
+D text_io.ads		20090114110545 7c37c8ff
+X 1 ada.ads
+16K9*Ada 19e8 26|17r6 17r29 18r6 19r6 19r29 21r6 22r6 23r6 56r20 82r20 108r24
+. 109r24 27|18r6 18r29 19r6 20r6 20r29 22r6 23r6 24r6 75r17 77r33 160r17
+. 163r3 190r21 191r21 205r10 212r11 218r11 232r12 240r11 256r9 275r28 302r12
+. 305r11 313r14 323r15 326r13 328r15 331r15 334r15 335r15 336r15 340r15 347r11
+. 352r8 355r7
+X 2 a-charac.ads
+16K13*Characters 18e19 26|23r10 27|24r10
+X 3 a-chahan.ads
+36K24*Handling 144e28 26|23w21 27|24w21
+X 5 a-comlin.ads
+36K13*Command_Line 134e21 26|19w10 19r33 27|20w10 20r33
+X 7 a-convec.ads
+53R9*Vector
+197U14*Append 27|167r16[28|59]
+X 11 a-inteio.ads
+18K13*Integer_Text_IO[21|45] 26|18w10 27|19w10
+X 14 a-string.ads
+16K13*Strings 35e16 26|21r10 56r24 82r24 108r28 109r28 27|22r10 75r21 77r37
+. 160r21 163r7 190r25 191r25 205r14 212r15 218r15 232r16 240r15 256r13 275r32
+. 302r16 305r15 313r18 323r19 326r17 328r19 331r19 334r19 335r19 336r19 340r19
+. 347r15 352r12 355r11
+X 16 a-strunb.ads
+39K21*Unbounded 428e26 26|21w18 56r32 82r32 108r36 109r36 27|22w18 75r29
+. 77r45 160r29 163r15 190r33 191r33 205r22 212r23 218r23 232r24 240r23 256r21
+. 275r40 302r24 305r23 313r26 323r27 326r25 328r27 331r27 334r27 335r27 336r27
+. 340r27 347r23 352r20 355r19
+42R9*Unbounded_String 395e14 26|56r42 82r42 108r46 109r46 27|75r39 160r39
+. 190r43 191r43 275r50
+63V13*To_String{string} 27|77r55 205r32 232r34 302r34 313r36 326r35 335r37
+. 352r30
+65U14*Set_Unbounded_String 27|163r25 212r33 218r33 240r33 305r33 323r37 331r37
+. 334r37 336r37 340r37 355r29
+78U14*Append 27|256r31 328r37 347r33
+X 19 a-textio.ads
+48K13*Text_IO 506e16 26|17w10 22r10 27|18w10 23r10
+51P9*File_Type(369R9) 26|104r35 119r34 27|186r32 273r31
+166U14*New_Line 27|288r7 359r3 360r3
+168U14*Skip_Line 27|357r5
+171V13*End_Of_Line{boolean} 27|195r13 291r15
+183V13*End_Of_File{boolean} 27|286r13
+205U14*Get 27|196r5 292r7
+205p19 File{51P9} 27|196r9 292r11
+205e37 Item{character} 27|196r22 292r24
+208U14*Put 27|198r7 294r9
+X 22 a-tiunio.ads
+25K21*Unbounded_IO 61e29 26|22w18 27|23w18
+X 26 lex.ads
+27K9*lex 122l5 122e8 27|28b14 363l5 363t8
+36V13*isNumber{boolean} 36>22 27|36b10 47l5 47t13 58r6 60r16 102r13
+36s22 convertedString{string} 27|36b19 38r14 39r8 39r40 39r72 40r5 40r37
+. 40r69 41r5 41r37 41r69 42r5
+46V13*badNumCheck{boolean} 46>25 27|55b10 66l5 66t16 99r10
+46s25 convertedString{string} 27|55b22 58r15 58r31 59r17 60r25
+55U14*determineGrammar 55<31 56>4 27|74b11 109l5 109t21 206r9 239r11 303r11
+. 318r13 329r15 353r7
+55e31 Class{28|39E8} 27|74b28 84m7 86m7 88m7 90m7 92m7 94m7 96m7 100m9 103m11
+. 105m11
+56r4 currString{16|42R9} 27|75b1 77r65
+68U14*determineSym 68>27 68<48 69<4 27|119b11 148l5 148t17 229r7 310r9
+68e27 Char{character} 27|119b24 123r6 125r9 127r9 129r9 131r9 133r9 135r9
+. 137r9 139r9 141r9 143r9 143r29 143r49
+68e48 symClass{28|39E8} 27|119b45 124m5 126m5 128m5 130m5 132m5 134m5 136m5
+. 138m5 140m5 142m5 146m5
+69b4 wasSym{boolean} 27|120b1 122m3 144m5
+80U14*outputFormat 80>27 80=49 81=4 81>39 82>4 27|158b11 168l5 168t17 209r11
+. 214r11 215r11 216r11 222r9 223r9 234r11 235r11 236r11 244r13 245r13 249r13
+. 250r13 251r13 261r5 262r5 304r11 314r13 321r15 322r15 330r15 341r15 342r15
+. 354r7
+80e27 Class{28|39E8} 27|158b24 164r24
+80r49 tableHolder{28|53R8} 27|158b46 163m46 164m3 165m3 166m3 167r23
+81r4 table{28|68R8} 27|159b1 167m3
+81i39 Line{integer} 27|159b36 165r23
+82r4 currString{16|42R9} 27|160b1 166r21
+104U14*lookAhead 104>24 104=46 105=4 105=39 105=64 106=4 106=34 107=4 107=29
+. 108=4 109=4 109>64 27|186b11 264l5 264t14 337r15
+104p24 iFile{19|51P9} 27|186b21 195r25 196r15
+104r46 tableHolder{28|53R8} 27|186b43 209m31 214m35 215m34 216m31 222m33
+. 223m32 234m35 235m33 236m34 244m33 245m36 249m37 250m36 251m33 261m25 262m28
+105r4 table{28|68R8} 27|187b1 209m44 214m48 215m47 216m44 222m46 223m45 234m48
+. 235m46 236m47 244m46 245m49 249m50 250m49 251m46 261m38 262m41
+105e39 Char{character} 27|187b36 196m28 198r11 202r8 202r22 202r49 203r8
+. 229r20 256r50
+105e64 Class{28|39E8} 27|187b61 206m26 207r12 208m11 209r24 216r24 239m28
+. 241r14 241r36 243m13 244r26 251r26 261r18
+106e4 prevClass{28|39E8} 27|188b1 214r24 222r22 234r24 249r26
+106e34 symClass{28|39E8} 27|188b31 193r26 210m11 215r24 217m11 223r22 224m9
+. 229m26 236r24 245r26 246m13 250r26 262r18
+107b4 wasSym{boolean} 27|189b1 229m36 230r10
+107i29 Line{integer} 27|189b26 209r51 214r55 215r54 216r51 222r53 223r52
+. 234r55 235r53 236r54 244r53 245r56 249r57 250r56 251r53 261r45 262r48
+108r4 currString{16|42R9} 27|190b1 205r42 206r33 209r57 212m54 214r61 215r60
+. 216r57 218m54 222r59 223r58 232r44 234r61 235r59 236r60 239r35 240m54 244r59
+. 245r62 249r63 250r62 251r59 256m38 261r51 262r54
+109r4 prevString{16|42R9} 27|191b1
+109b64 echo{boolean} 27|191b61 197r8
+119U14*fileRead 119>23 119=45 120>4 27|273b11 361l5 361t13
+119p23 iFile{19|51P9} 27|273b20 286r26 291r27 292r17 337r25 357r15
+119r45 table{28|68R8} 27|273b42 304m44 314m49 321m48 322m51 330m48 337m45
+. 341m48 342m51 354m40
+120b4 echo{boolean} 27|274b1 287r8 293r10 338r63
+X 27 lex.adb
+38i7 idx{integer} 39r24 39r56 39r88 40r21 40r53 40r85 41r21 41r53 41r85 42r21
+59i10 idx{integer} 60r41 60r46
+77a5 convertedString{string} 80r6 83r8 85r11 87r11 89r11 91r11 91r39 93r11
+. 95r11 99r22 102r22
+192b3 IDCheck{boolean} 195r36 211m11 219m11 225m9 233m11 242m13 248m13 260r6
+193e3 prevSym{28|39E8} 235r24
+275r3 currString{16|42R9} 302r44 303r35 304r57 305m54 313r46 314r62 318r37
+. 321r61 322r64 323m58 326r45 328m44 329r39 330r61 331m58 335r47 336m58 338m39
+. 340m58 341r61 342r64 347m40 352r40 353r31 354r53 355m50
+275r15 prevString{16|42R9} 334m58 338m51
+276e3 Char{character} 292m30 294r13 298r10 298r24 298r51 299r10 310r22 325r19
+. 328r56 337m52 347r52
+277e3 Class{28|39E8} 303m28 304r24 318m30 319r26 321r28 329m32 330r28 333r19
+. 337m58 341r28 353m24 354r20
+278e3 prevClass{28|39E8} 300m9 319m13 337m65
+279e3 symClass{28|39E8} 310m28 314r26 320r16 322r28 338m15 342r28
+280b3 wasSym{boolean} 310m38 311r12 338m25
+281i3 Line{integer} 290m5 290r13 304r51 314r56 321r55 322r58 330r55 338m33
+. 341r55 342r58 354r47
+282r3 tableHolder{28|53R8} 304m31 314m36 321m35 322m38 330m35 337m32 341m35
+. 342m38 354m27
+X 28 objectpkg.ads
+27K9*objectpkg 26|24w6 24r21 80r70 81r19 104r67 105r19 119r60 27|25w6 25r21
+. 158r67 159r16 186r64 187r16 273r57 282r17 28|98e14
+39E8*Char_Type 26|55r43 68r63 80r38 105r79 106r23 106r52 27|74r40 119r60
+. 158r35 187r76 188r20 188r49 193r13 277r16 278r16 279r16 28|41e78
+39n22*Progsym{39E8} 27|84r16
+39n31*Decsym{39E8} 27|86r16
+39n39*Beginsym{39E8} 27|88r16
+39n49*Endsym{39E8} 27|90r16
+39n57*Typesym{39E8} 27|92r16
+39n66*Readsym{39E8} 27|94r16
+40n3*Writesym{39E8} 27|96r16
+40n13*Number{39E8} 27|103r20 241r44
+40n21*Identifier{39E8} 27|105r20 207r20 241r22 333r27
+40n33*Equals{39E8} 27|124r17
+40n41*Plus{39E8} 27|126r17
+40n47*Minus{39E8} 27|128r17
+40n54*Multiply{39E8} 27|130r17
+40n64*Divide{39E8} 27|132r17
+40n72*Colon{39E8} 27|134r17
+41n3*Semicolon{39E8} 27|136r17
+41n14*LParenthesis{39E8} 27|138r17
+41n28*RParenthesis{39E8} 27|140r17
+41n42*Comma{39E8} 27|142r17
+41n49*BADID{39E8} 27|208r20 243r22
+41n56*BADSYM{39E8} 27|146r17 320r28
+41n64*BADNUM{39E8} 27|100r18
+41n72*Blank{39E8} 27|210r23 217r23 224r21 246r25 300r22
+53R8*lexObject 26|80r80 104r77 27|158r77 186r74 282r27 28|57e13
+54e5*Class{39E8} 27|164m15
+55i5*Line{integer} 27|165m15
+56r5*ID{16|42R9} 27|163m58 166m15
+68R8*lexTable 26|81r29 105r29 119r70 27|159r26 187r26 273r67 28|70e13
+69r5*lexTbl{7|53R9[59]} 27|167m9
+X 46 text_io.ads
+24K9*Text_IO=24:29 26|20w6 25r5 27|21w6 26r5
+

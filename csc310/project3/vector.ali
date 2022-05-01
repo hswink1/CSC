@@ -1,0 +1,174 @@
+V "GNAT Lib v4.4"
+P SS ZX
+R nnnnnnnnnnnnnnnnnnnnnnvvnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnvnnnnnnnnnnnnnnnn
+
+U vector%b		vector.adb		644d0454 NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.containers.vectors%s
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.unbounded_io%s  a-tiunio.ads	a-tiunio.ali
+W text_io%s		text_io.ads		text_io.ali
+
+U vector%s		vector.ads		90b7ffc5 EE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.characters%s	a-charac.ads		a-charac.ali
+W ada.characters.handling%s  a-chahan.adb	a-chahan.ali
+W ada.command_line%s	a-comlin.adb		a-comlin.ali
+W ada.containers%s	a-contai.ads		a-contai.ali
+W ada.containers.generic_array_sort%s
+W ada.containers.vectors%s
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.finalization%s	a-finali.adb		a-finali.ali
+W ada.finalization.list_controller%s  a-filico.adb  a-filico.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.streams%s		a-stream.ads		a-stream.ali
+W ada.strings%s		a-string.ads		a-string.ali
+W ada.strings.unbounded%s  a-strunb.adb		a-strunb.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W ada.text_io.enumeration_aux%s  a-tienau.adb	a-tienau.ali
+W ada.text_io.unbounded_io%s  a-tiunio.ads	a-tiunio.ali
+W ada.unchecked_deallocation%s
+W system%s		system.ads		system.ali
+W system.finalization_implementation%s  s-finimp.adb  s-finimp.ali
+W system.finalization_root%s  s-finroo.adb	s-finroo.ali
+W system.img_enum_new%s	s-imenne.adb		s-imenne.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+W system.storage_elements%s  s-stoele.adb	s-stoele.ali
+W system.stream_attributes%s  s-stratt.adb	s-stratt.ali
+W system.strings.stream_ops%s  s-ststop.adb	s-ststop.ali
+W system.val_enum%s	s-valenu.adb		s-valenu.ali
+W text_io%s		text_io.ads		text_io.ali
+
+D ada.ads		20090114110545 9c7dd3ea
+D a-charac.ads		20090114110546 506ce725
+D a-chahan.ads		20090414134925 dcb15e96
+D a-chlat1.ads		20090114110546 e9ee6d0a
+D a-comlin.ads		20090414135038 3b71d99c
+D a-contai.ads		20090114110545 7b35f559
+D a-cgarso.ads		20090114110545 943b3aae
+D a-convec.ads		20090414134727 317e4a8c
+D a-convec.adb		20090414134723 5aeb8a2b
+D a-except.ads		20090414134449 b54b55de
+D a-finali.ads		20090414134820 9eaacebd
+D a-filico.ads		20090414134951 9299732a
+D a-inteio.ads		20090114110546 03bc737c
+D a-ioexce.ads		20090114110546 be0900a0
+D a-stream.ads		20090414134419 34aca5be
+D a-string.ads		20090114110545 87b4230b
+D a-strmap.ads		20090414135051 5253a637
+D a-strunb.ads		20090414135011 f0549c04
+D a-suteio.ads		20090414134459 d857a771
+D a-tags.ads		20090414134730 bfa07446
+D a-textio.ads		20090414134822 fe8af46e
+D a-tienau.ads		20090414134912 671c7a9a
+D a-tienio.ads		20090414135046 213fedba
+D a-tienio.adb		20090414135043 ba330dab
+D a-tiinio.ads		20090414134653 949a7272
+D a-tiunio.ads		20090114110546 d721fe49
+D a-unccon.ads		20090114110545 51e09df2
+D a-uncdea.ads		20090114110545 dc667e6d
+D interfac.ads		20090414134625 a69cad5c
+D i-cstrea.ads		20090414134744 e1e064a9
+D system.ads		20090414134649 df55302f
+D s-crtl.ads		20090414134633 997234a1
+D s-exctab.ads		20090414134921 5c1c61ae
+D s-ficobl.ads		20090414134918 8bb681e5
+D s-finimp.ads		20090414135057 9449f4cb
+D s-finroo.ads		20090414134701 1408f9d1
+D s-imenne.ads		20090414134936 97a402ea
+D s-parame.ads		20090414134647 f32e56e9
+D s-secsta.ads		20090414134519 7bae3621
+D s-soflin.ads		20090414134425 0c6fd39d
+D s-stache.ads		20090414134825 257b3be8
+D s-stalib.ads		20090414135007 52b793d5
+D s-stoele.ads		20090414134841 ed966df3
+D s-stoele.adb		20090414134835 e9998c78
+D s-stratt.ads		20090414134859 fef7c1da
+D s-strops.ads		20090414134829 845f72d2
+D s-sopco3.ads		20090414134748 72ce1063
+D s-sopco4.ads		20090414134818 bc112723
+D s-sopco5.ads		20090414134845 191315e8
+D s-string.ads		20090414134511 04f2ee70
+D s-ststop.ads		20090414135037 b2197cc3
+D s-traent.ads		20090414134453 bd5f2753
+D s-unstyp.ads		20090414134601 c0f9fae5
+D s-valenu.ads		20090414134424 9e547a01
+D s-wchcon.ads		20090414134706 ab028799
+D text_io.ads		20090114110545 7c37c8ff
+D vector.ads		20200420234127 9b48eaba
+D vector.adb		20200420234215 f4fafb91
+X 1 ada.ads
+16K9*Ada 19e8 57|1r6 2r5 3r6 4r6 4r29 5r6 6r6 6r29 8r6 9r6 10r6 19r27 25r10
+. 28r29 58|1r6 2r5 3r6 4r6 4r29 5r6 6r6 6r29 8r6 9r6 10r6
+X 2 a-charac.ads
+16K13*Characters 18e19 57|10r10 58|10r10
+X 3 a-chahan.ads
+36K24*Handling 144e28 57|10w21 58|10w21
+X 5 a-comlin.ads
+36K13*Command_Line 134e21 57|6w10 6r33 58|6w10 6r33
+X 6 a-contai.ads
+16K13*Containers 22e19 57|1w10 2r9 3r10 28r33 58|1w10 2r9 3r10
+X 8 a-convec.ads
+38I9 Index_Type 57|29r6
+39+9 Element_Type 57|30r6
+43k24*Vectors 379e27 57|3w21 28r44 58|3w21
+X 13 a-inteio.ads
+18K13*Integer_Text_IO[25|45] 57|5w10 58|5w10
+X 16 a-string.ads
+16K13*Strings 35e16 57|8r10 25r14 58|8r10
+X 18 a-strunb.ads
+39K21*Unbounded 428e26 57|8w18 25r22 58|8w18
+42R9*Unbounded_String 395e14 57|25r32
+X 21 a-textio.ads
+48K13*Text_IO 506e16 57|4w10 9r10 19r31 58|4w10 9r10
+X 23 a-tienio.ads
+46k21*Enumeration_IO 75e31 57|19r39
+X 26 a-tiunio.ads
+25K21*Unbounded_IO 61e29 57|9w18 58|9w18
+X 56 text_io.ads
+24K9*Text_IO=24:29 57|7w6 11r5 58|7w6 11r5
+X 57 vector.ads
+13K9*vector 35l5 35e11 58|13b14 20l5 20t11
+15E8*Char_Type 17e78 19r54 23r13
+15n22*Progsym{15E8}
+15n31*Decsym{15E8}
+15n39*Beginsym{15E8}
+15n49*Endsym{15E8}
+15n57*Typesym{15E8}
+15n66*Readsym{15E8}
+16n3*Writesym{15E8}
+16n13*Number{15E8}
+16n21*Identifier{15E8}
+16n33*Equals{15E8}
+16n41*Plus{15E8}
+16n47*Minus{15E8}
+16n54*Multiply{15E8}
+16n64*Divide{15E8}
+16n72*Colon{15E8}
+17n3*Semicolon{15E8}
+17n14*LParenthesis{15E8}
+17n28*RParenthesis{15E8}
+17n42*Comma{15E8}
+17n49*BADID{15E8}
+17n56*BADSYM{15E8}
+17n64*BADNUM{15E8}
+17n72*Blank{15E8}
+19K11*Class_IO[23|46] 20r7
+22R8*symTable 26e13 30r22
+23e5*Class{15E8}
+24i5*Line{integer}
+25r5*ID{18|42R9}
+28K11*symVectors[8|43]
+33U11*createVector 58|15b11 18l5 18t17
+

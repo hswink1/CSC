@@ -1,0 +1,9 @@
+program abc
+dec
+  x, f:real;
+  q:int
+begin
+  Write(f);
+  Read(x, f, q);
+  q = 20 - (10+q)
+end.
